@@ -4,7 +4,7 @@ export const parserOptions = {
   ecmaVersion: 2020,
   sourceType: 'module',
 };
-export const eslintConfig = {
+export const eslintConfiguration = {
   extends: ['airbnb-base'],
 };
 export const plugins = ['@typescript-eslint'];
