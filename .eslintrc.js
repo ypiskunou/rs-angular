@@ -1,13 +1,13 @@
-module.exports = {
-  root: true,
-  parser: '@typescript-eslint/parser',
-  parserOptions: {
-    ecmaVersion: 2020,
-    sourceType: 'module',
-  },
+export const root = true;
+export const parser = '@typescript-eslint/parser';
+export const parserOptions = {
+  ecmaVersion: 2020,
+  sourceType: 'module',
+};
+export const eslintConfig = {
   extends: ['airbnb-base'],
-  plugins: ['@typescript-eslint'],
-  rules: {
-    // Add any additional rules or overrides here
-  },
+};
+export const plugins = ['@typescript-eslint'];
+export const rules = {
+  'no-explicit-any': 'error',
 };
